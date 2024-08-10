@@ -1,6 +1,6 @@
--- DROP TABLE IF EXISTS dmart_orders_angga;
+DROP TABLE IF EXISTS dmart_orders_angga;
 CREATE TABLE dmart_orders_angga (
-	order_id INT NOT NULL,
+	order_id INT primary key NOT NULL,
 	order_date DATE NOT NULL,
 	user_id INT NOT NULL,
 	payment_name VARCHAR(255),
